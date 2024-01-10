@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+ <head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Weather App</title>
+     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+
+ </head>
+
+ <body class="min-100-vh flex-column">
+    <header class="p-5 text-center text-white bg-primary">
+        <h1>Weather Forcast</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="weather-input">
+            <div class="row">
+            <aside class="col-lg-3 bg-light">
+                <h3>Enter a City: </h3>
+                <!-- <input type="text" placeholder="E.g., New York, Boston, Texas"> -->
+                <div class="form-inline form-group">
+                <input class="form-control" type="text" id="searchValue" />
+                <button class="searchBtn">Search</button>
+            </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>New York (2024-01-09)</h2>
+                    <h4>Temperature:</h4>
+                    <h4>Wind: </h4>
+                    <h4>Humidity: </h4>
+        </div>
+        <div class="icon">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+            <h4>Moderate Rain </h4>
+        </div>
+            <!-- <ul class="list-group history"></ul>
+            </aside>
+
+            <div class="col-lg-9"></div>
+            <div id="today" class="mt-3"></div>
+            <div id="weatherForcast" class="card-deck mt-3"></div> -->
+
+        </div>
+    </div>
+    <script></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
